@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int a;
+	cout << " enter the positive number : ";
+	cin>> a;
+	if(a>=18)
+	  cout<< " eligable to vote ";
+	else
+	   cout<<(18-a)<< " required age to vote ";
+}
